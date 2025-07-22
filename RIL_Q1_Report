@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIL Q1 FY26 Report & Strategic Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .growth-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        .growth-pill svg {
+            margin-right: 0.25rem;
+        }
+        .section-title {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .kpi-card {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased">
+    <div class="container mx-auto p-4 sm:p-6 md:p-8">
+        
+        <!-- Header -->
+        <header class="text-center mb-10 md:mb-16 bg-white p-8 rounded-xl shadow-lg">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900">Reliance Industries Ltd.</h1>
+            <p class="text-xl text-gray-600 mt-2">Q1 FY26 Results & Strategic Analysis</p>
+        </header>
+
+        <!-- Introduction -->
+        <section class="mb-12">
+            <p class="text-lg text-gray-700 leading-relaxed bg-white p-6 rounded-lg shadow-md">
+                <strong>Mumbai, India</strong> - Reliance Industries Ltd. (RIL) today reported its financial results for the first quarter of fiscal year 2026, ending June 30, 2025. The conglomerate posted its highest-ever quarterly consolidated EBITDA and Net Profit, signaling a robust start to the fiscal year. The performance was largely driven by strong momentum in its consumer-facing businesses, Jio and Retail, alongside a significant one-time gain from the sale of investments.
+            </p>
+        </section>
+
+        <!-- Financial Highlights -->
+        <section class="mb-12">
+            <h2 class="section-title">Financial Highlights</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                <!-- Gross Revenue Card -->
+                <div class="card bg-white rounded-xl shadow-md p-6 border border-gray-200">
+                    <div class="flex items-center mb-4"><div class="p-3 bg-blue-100 rounded-full mr-4"><svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M12 6h.01M6 12h.01M18 12h.01M6 18h.01M18 6h.01M6 6h.01M18 18h.01"></path></svg></div><h3 class="text-xl font-semibold text-gray-700">Gross Revenue</h3></div>
+                    <p class="text-4xl font-bold text-gray-900 mb-4">₹2,73,252 <span class="text-2xl font-medium text-gray-500">cr</span></p>
+                    <div class="space-y-3"><div class="flex justify-between items-center"><span class="text-gray-500">YoY Growth</span><div class="growth-pill bg-green-100 text-green-800"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg><span>+6.0%</span></div></div><div class="flex justify-between items-center"><span class="text-gray-500">QoQ Growth</span><div class="growth-pill bg-red-100 text-red-800"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg><span>-5.2%</span></div></div></div>
+                </div>
+                <!-- EBITDA Card -->
+                <div class="card bg-white rounded-xl shadow-md p-6 border border-gray-200">
+                    <div class="flex items-center mb-4"><div class="p-3 bg-purple-100 rounded-full mr-4"><svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg></div><h3 class="text-xl font-semibold text-gray-700">EBITDA</h3></div>
+                    <p class="text-4xl font-bold text-gray-900 mb-4">₹58,024 <span class="text-2xl font-medium text-gray-500">cr</span></p>
+                    <div class="space-y-3"><div class="flex justify-between items-center"><span class="text-gray-500">YoY Growth</span><div class="growth-pill bg-green-100 text-green-800"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg><span>+35.7%</span></div></div><div class="flex justify-between items-center"><span class="text-gray-500">QoQ Growth</span><div class="growth-pill bg-green-100 text-green-800"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg><span>+19.1%</span></div></div></div>
+                </div>
+                <!-- Net Profit (PAT) Card -->
+                <div class="card bg-white rounded-xl shadow-md p-6 border border-gray-200">
+                    <div class="flex items-center mb-4"><div class="p-3 bg-teal-100 rounded-full mr-4"><svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg></div><h3 class="text-xl font-semibold text-gray-700">Net Profit (PAT)</h3></div>
+                    <p class="text-4xl font-bold text-gray-900 mb-4">₹30,783 <span class="text-2xl font-medium text-gray-500">cr</span></p>
+                    <div class="space-y-3"><div class="flex justify-between items-center"><span class="text-gray-500">YoY Growth</span><div class="growth-pill bg-green-100 text-green-800"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg><span>+76.5%</span></div></div><div class="flex justify-between items-center"><span class="text-gray-500">QoQ Growth</span><div class="growth-pill bg-green-100 text-green-800"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg><span>+36.1%</span></div></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Performance Indicators -->
+        <section class="mb-12">
+            <h2 class="section-title">Key Performance Indicators (Q1 FY26)</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+                <div class="kpi-card p-4 rounded-lg text-center"><p class="text-sm text-gray-500">Debt-to-Equity</p><p class="text-2xl font-bold text-gray-900">0.39</p></div>
+                <div class="kpi-card p-4 rounded-lg text-center"><p class="text-sm text-gray-500">Operating Margin</p><p class="text-2xl font-bold text-gray-900">10.6%</p></div>
+                <div class="kpi-card p-4 rounded-lg text-center"><p class="text-sm text-gray-500">Net Profit Margin</p><p class="text-2xl font-bold text-gray-900">11.3%</p></div>
+            </div>
+            <p class="text-xs text-center text-gray-500 mt-4">Note: Net Profit (PAT) includes the share of profit from associates and joint ventures and a significant one-time gain of ₹8,924 crore.</p>
+        </section>
+
+        <!-- Segment Performance Section -->
+        <section class="mb-12">
+            <h2 class="section-title">Segment Performance</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Bar Chart for Revenue -->
+                <div class="card bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4 text-center">Gross Revenue by Segment</h3>
+                    <canvas id="revenueChart"></canvas>
+                </div>
+                <!-- Bar Chart for EBITDA -->
+                <div class="card bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4 text-center">EBITDA by Segment</h3>
+                    <canvas id="ebitdaChart"></canvas>
+                </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">Digital Services (Jio) now contributes more to EBITDA than the traditional O2C business, marking a significant strategic shift.</p>
+        </section>
+
+        <!-- Deeper Analysis -->
+        <section class="mb-12">
+            <h2 class="section-title">Deeper Analysis</h2>
+            <div class="space-y-6">
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-xl mb-2 text-gray-800">Operating Margin Drivers</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><strong>Lower Raw Material Costs:</strong> Cost of materials consumed fell from 42.4% to 36.3% of revenue YoY, driven by lower crude oil prices.</li>
+                        <li><strong>Improved Product Margins:</strong> Favorable margins in domestic fuel retail (Jio-bp) and better transportation fuel cracks boosted O2C profitability.</li>
+                        <li><strong>Operating Leverage in Consumer Businesses:</strong> Jio's EBITDA margin expanded by 210 bps and Retail's by 20 bps YoY due to scale and efficiency gains.</li>
+                    </ul>
+                </div>
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-xl mb-2 text-gray-800">Working Capital Analysis</h3>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg">
+                            <h4 class="font-semibold text-green-800">Positive Signal: Inventory</h4>
+                            <p class="text-green-700">Inventory Turnover ratio improved, and the company sold more than it produced, indicating efficient inventory management and a positive cash flow impact.</p>
+                        </div>
+                        <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                            <h4 class="font-semibold text-red-800">Potential Red Flag: Receivables</h4>
+                            <p class="text-red-700">Debtors Turnover ratio decreased, suggesting it's taking longer to collect cash from customers, which could strain working capital if not managed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-xl mb-2 text-gray-800">Critique of Management Commentary</h3>
+                    <p class="mb-3 text-gray-700">The commentary is broadly consistent with strong YoY results but contains selective framing:</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><strong>Downplaying One-Off Gain:</strong> The record 76.5% PAT growth is heavily inflated by a non-operational gain of ₹8,924 crore, which is not highlighted in the commentary.</li>
+                        <li><strong>Ignoring QoQ Revenue Decline:</strong> The 5.2% sequential dip in revenue, a key metric, is completely omitted from the narrative.</li>
+                        <li><strong>Selective O2C Narrative:</strong> Focuses on EBITDA growth while ignoring the 1.5% YoY revenue decline and 3.5% drop in production throughput for the O2C segment.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Strategic Outlook -->
+        <section>
+            <h2 class="section-title">Strategic Outlook: A Competitor's View</h2>
+            <div class="space-y-6">
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-xl mb-2 text-blue-800">The Biggest Strategic Opportunity</h3>
+                    <p class="text-gray-700">The transition of Jio from a connectivity provider to a high-margin digital life platform. With Digital Services' EBITDA now surpassing the O2C segment, the path is clear to monetize their vast user base by layering financial, cloud, and AI services at near-zero customer acquisition cost, effectively becoming the OS for a digital India.</p>
+                </div>
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-xl mb-2 text-red-800">The Most Significant Non-Obvious Risk</h3>
+                    <p class="text-gray-700">Regulatory backlash against their "Walled Garden" strategy. The deep integration of services (telecom, media, retail) makes them a prime target for CCI scrutiny. The risk of mandated interoperability, restrictions on bundling, or data-use limitations could strike at the heart of their synergistic model.</p>
+                </div>
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-xl mb-2 text-purple-800">Capital Expenditure Priorities</h3>
+                    <p class="text-gray-700">The massive Capex of ₹29,875 crore this quarter signals a clear "twin transition" strategy. The largest bets are on <strong>Digital Dominance</strong> (completing the 5G rollout and scaling home broadband) and <strong>Energy Transformation</strong> (building the green energy giga-scale ecosystem), positioning RIL to be the backbone of both India's digital and green economies.</p>
+                </div>
+                 <div class="card bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                    <h3 class="font-bold text-xl mb-2 text-blue-900">The Story of the Quarter</h3>
+                    <p class="text-blue-800 leading-relaxed">This report tells a story of a <strong>strategic pivot from a legacy industrial giant into a formidable consumer-technology fortress.</strong> It demonstrates that new growth engines, Digital Services and Retail, are now the primary drivers of profitability. The narrative is one of calculated aggression—using massive cash flows from the legacy business to fund a capital-intensive expansion that aims to create insurmountable moats in the high-growth sectors that will define India's next decade. It is a story not of simple growth, but of <strong>accelerating dominance and the consolidation of market power.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Note -->
+        <footer class="text-center mt-12">
+            <p class="text-sm text-gray-500">This report is based on figures from RIL's Q1 FY26 earnings release dated July 18, 2025.</p>
+            <p class="text-sm text-gray-600 font-semibold mt-2">Report by Sherwyn Williams</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Data for charts
+        const segmentData = {
+            labels: ['Oil to Chemicals', 'Digital Services', 'Retail', 'Oil & Gas'],
+            revenue: [154804, 41949, 84172, 6103],
+            ebitda: [14511, 18312, 6381, 4996]
+        };
+
+        // Chart.js configurations
+        const chartOptions = {
+            indexAxis: 'y',
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            let label = context.dataset.label || '';
+                            if (label) {
+                                label += ': ';
+                            }
+                            if (context.parsed.x !== null) {
+                                label += new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(context.parsed.x);
+                            }
+                            return label;
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function(value, index, values) {
+                            return '₹' + (value / 1000) + 'K cr';
+                        }
+                    }
+                }
+            }
+        };
+
+        // Render Revenue Chart
+        const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+        new Chart(revenueCtx, {
+            type: 'bar',
+            data: {
+                labels: segmentData.labels,
+                datasets: [{
+                    label: 'Gross Revenue',
+                    data: segmentData.revenue,
+                    backgroundColor: ['#fb923c', '#818cf8', '#f472b6', '#4ade80'],
+                    borderColor: ['#f97316', '#6366f1', '#ec4899', '#22c55e'],
+                    borderWidth: 1
+                }]
+            },
+            options: chartOptions
+        });
+
+        // Render EBITDA Chart
+        const ebitdaCtx = document.getElementById('ebitdaChart').getContext('2d');
+        new Chart(ebitdaCtx, {
+            type: 'bar',
+            data: {
+                labels: segmentData.labels,
+                datasets: [{
+                    label: 'EBITDA',
+                    data: segmentData.ebitda,
+                    backgroundColor: ['#fdba74', '#a5b4fc', '#f9a8d4', '#86efac'],
+                    borderColor: ['#f97316', '#6366f1', '#ec4899', '#22c55e'],
+                    borderWidth: 1
+                }]
+            },
+            options: chartOptions
+        });
+    </script>
+</body>
+</html>
